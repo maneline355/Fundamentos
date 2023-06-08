@@ -1,0 +1,74 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-80">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>PseudoClases y PseudoElementos</title>
+                <style>
+                    div{
+                        background-color: beige
+                        color:azure;
+                }
+                /*Pseudoclases (;) */
+                div:haver {
+                    background-color: blueviolet;
+                    color:aquamarine;
+
+                }
+                input :required{
+                    background-color: aquamarine; 
+                    color:white;
+                    
+                }
+                /*Pseudoelementos (;;) */
+                .cuadro {
+                    width: 100px;
+                    height: 100px;
+                    background-color: lightcoral;
+                    float: left;
+                    border: 1px solid green;
+                    }
+
+                    .cuadro:: first-child{
+                        background-color: palevioletred;
+                        }
+ 
+                        .cuadro:: last-child{
+                        background-color: orangered;
+                          }
+
+                    .cuadro:: nth-child (add){
+                        background-color: pink;
+                        }
+                   p::first letter {
+                    color:lightyellow;
+                    }
+                    p::before{
+                        content:'';
+
+
+                <style>
+            </head>
+            <body>
+                <div>Este es un div </div>
+                <div>Este es un div </div>
+                <div>Este es un div </div>
+                <div>Este es un div </div>
+                        <input type="text" name="" id="" :required>
+                        <input type="text" name="" id="">
+                        <input type="text" name="" id="">
+                        <input type="text" name="" id="">
+                        <input type="text" name="" id="">
+                        div class="container">
+                        <div>
+                            <div>
+
+                        <div class="cuadro"Div 1</div>
+                            <div class="cuadro"Div 2</div>
+                                <div class="cuadro"Div 3</div>
+                                    <div class="cuadro"Div 4</div>
+                                        <div class="cuadro"Div 5</div>
+                                            <div class="cuadro"Div 6</div>
+
+
